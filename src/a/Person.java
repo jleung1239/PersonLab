@@ -2,7 +2,8 @@ package a;
 
 public class Person {
     private String firstName, familyName;
-    public Person(String firstName, String familyName) {
+    public Person(String firstName, String familyName)
+    {
         this.firstName = firstName;
         this.familyName = familyName;
     }
@@ -31,5 +32,4 @@ public class Person {
         }
         else return false;
     }
-
 }
