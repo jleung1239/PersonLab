@@ -1,6 +1,6 @@
 package a;
 
-public class Person {
+public abstract class Person {
     private String firstName, familyName;
     public Person(String firstName, String familyName)
     {
