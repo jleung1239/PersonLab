@@ -7,16 +7,16 @@ public class Runner {
 
     public static void main(String[] args)
     {
-        Student[] students = new Student[34];
+       /* Student[] students = new Student[34];
         for (int i = 0; i < 34; i++)
         {
             students[i] = randomStudent();
         }
         Teacher teach = new Teacher("Folwell", "Nathan", "Mr.", "CSA");
         Classroom ourClass = new Classroom(students, teach);
-        ourClass.printClass();
+        ourClass.printClass(); */
     }
-    public static Student randomStudent()
+    /*public static Student randomStudent()
     {
         String firstName = firstNames[(int)(Math.random() * firstNames.length)];
         String familyName = familyNames[(int)(Math.random() * familyNames.length)];
@@ -24,7 +24,7 @@ public class Runner {
 
         Student stu = new Student(firstName, familyName, GPA);
         return stu;
-    }
+    }*/
 
 	// declare and initalize a teacher, an array of students, and a classroom
         // print class and print class average
