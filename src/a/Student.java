@@ -14,6 +14,7 @@ public class Student extends Person {
     {
         return gpa;
     }
+    @Override
     public String toString()
     {
         return getFirstName() + " " + getFamilyName();
